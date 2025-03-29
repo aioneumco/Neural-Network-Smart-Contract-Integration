@@ -113,8 +113,9 @@ The docker-compose.yml will spin up the containers for the AI model, Smart contr
 
 cd ai_model
 pip install -r requirements.txt
-requirements.txt يحتوي على جميع المتطلبات الخاصة بـ TensorFlow، على سبيل المثال:
 
+requirements.txt
+يجب ان بحتوي على جميع المتطلبات الخاصة بـ TensorFlow،  
 
 
 tensorflow==2.7.0
@@ -203,7 +204,7 @@ npm start
 
 قم بتشغيل index.html على الخادم المحلي باستخدام Web3.js لتتمكن من التفاعل مع العقد الذكي.
 
-ملاحظات:
+ملاحظه:
 تأكد من أن Metamask أو محفظتك الأخرى متصلة بالشبكة الصحيحة مثل Rinkeby أو Ganache.
 
 تأكد من تكوين Truffle بشكل صحيح إذا كنت تستخدم شبكة Rinkeby أو Infura.
@@ -217,4 +218,4 @@ npm start
 docker-compose up
 docker-compose.yml ستقوم بتشغيل الحاويات الخاصة بـ AI model و Smart contract و Web interface.
 
-يمكنك تشغيل المشروع بالكامل وربط نموذج الذكاء الاصطناعي مع العقد الذكي والتفاعل مع واجهة المستخدم عبر Web3.js.
+الان يمكنك تشغيل المشروع بالكامل وربط نموذج الذكاء الاصطناعي مع العقد الذكي والتفاعل مع واجهة المستخدم عبر Web3.js.
